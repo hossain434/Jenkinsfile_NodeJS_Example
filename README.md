@@ -8,12 +8,11 @@
 
 4. Create new Job: New Item -> Pipeline Script
 
-a. GitHub project: Project URL: https://github.com/hossain434/nightwatch_sample_example
+5. GitHub project: Project URL: https://github.com/hossain434/nightwatch_sample_example
 
-b. Pipeline: Definition-> Pipeline script form SCM
+6. Pipeline: Definition-> Pipeline script form SCM
 
 SCM-> Git
-
 
 Repository URL: https://github.com/hossain434/nightwatch_sample_example  (doesn’t need to provide .git URL)
 
@@ -25,7 +24,7 @@ Repository browser: Auto
 
 Script path: Jenkinsfile
 
-Create a Jenkins file and add in the GitHub project. If you have more than one then name as Jenkinsfile_1, Jenkinsfile_2 etc.
+Create a Jenkinsfile and add in the GitHub project. If you have more than one then name as Jenkinsfile_1, Jenkinsfile_2 etc.
 
 Example: https://github.com/hossain434/InvoicePdfkitNodeJs/blob/master/Jenkinsfile
 
