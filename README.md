@@ -12,22 +12,22 @@
 
 6. Pipeline: Definition-> Pipeline script form SCM
 
-SCM-> Git
+    SCM-> Git
 
-Repository URL: https://github.com/hossain434/nightwatch_sample_example  (doesn’t need to provide .git URL)
+    Repository URL: https://github.com/hossain434/nightwatch_sample_example  (doesn’t need to provide .git URL)
 
-Left the credentials blank since this is public link
+    Left the credentials blank since this is public link
 
-Branch to build: Master
+    Branch to build: Master
 
-Repository browser: Auto
+    Repository browser: Auto
 
-Script path: Jenkinsfile
+    Script path: Jenkinsfile
 
-Create a Jenkinsfile and add in the GitHub project. If you have more than one then name as Jenkinsfile_1, Jenkinsfile_2 etc.
+    Create a Jenkinsfile and add in the GitHub project. If you have more than one then name as Jenkinsfile_1, Jenkinsfile_2 etc.
 
-Example: https://github.com/hossain434/InvoicePdfkitNodeJs/blob/master/Jenkinsfile
+    Example: https://github.com/hossain434/InvoicePdfkitNodeJs/blob/master/Jenkinsfile
 
-Build Trigger: Setup schedule.
+    Build Trigger: Setup schedule.
 
-#### Reference: https://medium.com/@gustavo.guss/jenkins-starting-with-pipeline-doing-a-node-js-test-72c6057b67d4
+    #### Reference: https://medium.com/@gustavo.guss/jenkins-starting-with-pipeline-doing-a-node-js-test-72c6057b67d4
