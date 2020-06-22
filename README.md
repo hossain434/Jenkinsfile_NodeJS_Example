@@ -4,7 +4,7 @@
 
 2. In Jenkins, Install Git plugin then go to manage Jenkins -> Global tool configuration-> Git-> Name: Default, Check ‘Install automatically’ if you don’t have installed in your machine or virtual instance, Path to Git Executable: Git  
 
-3. In Jenkins, go to manage Jenkins -> Global tool configuration-> NodeJS-> Name: node, Check ‘Install automatically’, select the version from dropdown and let the other fields as it is.  
+3. In Jenkins, go to manage Jenkins -> Global tool configuration-> NodeJS-> Name: node, Check ‘Install automatically’, select the version from dropdown and left the other fields as it is. Jenkins will take care NodeJS installation.  
 
 4. Create new Job: New Item -> Pipeline Script
 
